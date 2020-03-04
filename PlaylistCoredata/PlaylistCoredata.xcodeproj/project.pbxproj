@@ -13,6 +13,9 @@
 		3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E1DF46123F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld */; };
 		3E1DF46523F322300002BC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1DF46423F322300002BC07 /* Assets.xcassets */; };
 		3E1DF46823F322300002BC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1DF46623F322300002BC07 /* LaunchScreen.storyboard */; };
+		D4D48FC02410273A00D312A8 /* Paylist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D48FBF2410273A00D312A8 /* Paylist+Convenience.swift */; };
+		D4D48FC22410289C00D312A8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D48FC12410289C00D312A8 /* CoreDataStack.swift */; };
+		D4D7CCF024102F280031F761 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7CCEF24102F280031F761 /* Song+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3E1DF46423F322300002BC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1DF46723F322300002BC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E1DF46923F322300002BC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D48FBF2410273A00D312A8 /* Paylist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paylist+Convenience.swift"; sourceTree = "<group>"; };
+		D4D48FC12410289C00D312A8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D4D7CCEF24102F280031F761 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				3E1DF46123F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld */,
+				D4D48FBF2410273A00D312A8 /* Paylist+Convenience.swift */,
+				D4D7CCEF24102F280031F761 /* Song+Convenience.swift */,
+				D4D48FC12410289C00D312A8 /* CoreDataStack.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,8 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D48FC22410289C00D312A8 /* CoreDataStack.swift in Sources */,
 				3E1DF45923F3222E0002BC07 /* AppDelegate.swift in Sources */,
+				D4D7CCF024102F280031F761 /* Song+Convenience.swift in Sources */,
 				3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */,
+				D4D48FC02410273A00D312A8 /* Paylist+Convenience.swift in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
